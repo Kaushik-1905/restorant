@@ -7,7 +7,11 @@
     }
 
     main .containar {
-        width: 100%;    
+        width: 100%;
+    }
+
+    footer .containar{
+        width: 100%;
     }
 
     .col-xxl {

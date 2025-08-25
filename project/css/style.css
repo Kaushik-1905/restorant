@@ -67,6 +67,10 @@ header .nav-icon i::before {
    border: 2px solid var(--white);
 }
 
+footer .footer-bottom + a{
+   display: none;
+}
+
 /* #### main #### */
 
 main {
@@ -168,6 +172,10 @@ main .main-pic img {
 .service .sevice-card p {
    margin-bottom: 16px;
    transition: 0.5s;
+}
+
+footer .footer-bottom + a{
+   display: block;
 }
 
 /* #### about ####  */
@@ -798,11 +806,11 @@ footer .footer-bottom ul a:last-child {
    border: none;
 }
 
-footer .footer-bottom + a{
+footer .footer-bottom+a {
    background-color: var(--orange-800);
    position: fixed;
    padding: 15px;
    top: 600px;
-   right: 82px;
+   right: 55px;
    color: var(--white);
 }
